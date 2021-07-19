@@ -35,8 +35,13 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a className="link" href="/explore#discover">
-            Discover
+          <a
+            className="link"
+            href="#"
+            data-toggle="modal"
+            data-target=".formodal"
+          >
+            Contact
           </a>
         </li>
       </ul>
