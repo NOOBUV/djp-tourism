@@ -1,33 +1,41 @@
 import "./Home.css";
 import MainContainer from "./MainContainer";
 import { useState } from "react";
+import img1 from "./img/a (1).webp";
+import img2 from "./img/a (2).webp";
+import img3 from "./img/a (3).webp";
+import img4 from "./img/a (4).webp";
+import img5 from "./img/a (5).webp";
+import img6 from "./img/a (6).webp";
+import img7 from "./img/a (7).webp";
+import img8 from "./img/a (8).webp";
 
 const Home = () => {
   const [imageSrc, setImageSrc] = useState(
-    `https://unsplash.com/photos/3l3ant2VB-U/download?force=true`
+    "https://cdn.discordapp.com/attachments/866039926121955389/866769688691343420/a_2.webp"
   );
 
   const [items, setItems] = useState([
     {
-      url: "https://cdn.discordapp.com/attachments/866039655924891681/866749346371600444/url1.jpg",
+      url: img5,
       background:
-        "https://cdn.discordapp.com/attachments/866039655924891681/866749512915353640/bg1.jpg",
+        "https://cdn.discordapp.com/attachments/866039926121955389/866769688691343420/a_2.webp",
     },
     {
-      url: "https://cdn.discordapp.com/attachments/866039655924891681/866751633232232448/ajmal-mk-pfLyzuGfofY-unsplash_1.jpg",
+      url: img1,
       background:
-        "https://cdn.discordapp.com/attachments/866039655924891681/866751441828970516/zdenek-machacek-jvdvp6bplTs-unsplash_1.jpg",
+        "https://cdn.discordapp.com/attachments/866039926121955389/866769699885678602/a_8.webp",
     },
 
     {
-      url: "https://cdn.discordapp.com/attachments/866039655924891681/866751219129516072/godwin-angeline-benjo-F4Pu1wuGQkc-unsplash_1.jpg",
+      url: img4,
       background:
-        "https://cdn.discordapp.com/attachments/866039655924891681/866750546726617098/sreehari-devadas-rwO-rWHNwds-unsplash_1.jpg",
+        "https://cdn.discordapp.com/attachments/866039926121955389/866769695746162729/a_6.webp",
     },
     {
-      url: "https://cdn.discordapp.com/attachments/866039655924891681/866750994892980254/ashim-d-silva-YH1sPWaQAhg-unsplash_1.jpg",
+      url: img3,
       background:
-        "https://cdn.discordapp.com/attachments/866039655924891681/866750636175654933/sylwia-bartyzel-eU4pipU_8HA-unsplash_1_1.jpg",
+        "https://cdn.discordapp.com/attachments/866039926121955389/866769698037432360/a_7.webp",
     },
   ]);
 
