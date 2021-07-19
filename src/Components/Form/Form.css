@@ -182,3 +182,6 @@ textarea {
 .close {
   margin: 0px;
 }
+i.fa.fa-times.cross {
+  color: white;
+}
