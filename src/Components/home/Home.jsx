@@ -1,7 +1,6 @@
 import "./Home.css";
 import MainContainer from "./MainContainer";
 import { useState } from "react";
-
 const Home = () => {
   const [imageSrc, setImageSrc] = useState(
     `https://unsplash.com/photos/3l3ant2VB-U/download?force=true`
@@ -16,7 +15,7 @@ const Home = () => {
       url: `https://unsplash.com/photos/pfLyzuGfofY/download?force=true`,
       background: `https://unsplash.com/photos/jvdvp6bplTs/download?force=true`,
     },
-    
+
     {
       url: `https://unsplash.com/photos/F4Pu1wuGQkc/download?force=true`,
       background: `https://unsplash.com/photos/rwO-rWHNwds/download?force=true`,
