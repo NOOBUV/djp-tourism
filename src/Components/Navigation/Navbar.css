@@ -2,7 +2,7 @@ Nav {
   display: flex;
   justify-content: space-around;
   min-height: 8vh;
-  position: fixed;
+  position: absolute;
   z-index: 10000;
   width: 100%;
   align-items: center;
