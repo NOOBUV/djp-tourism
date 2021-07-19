@@ -12,6 +12,7 @@
 
 body {
   overflow-x: hidden;
+  position: relative;
 }
 svg {
   outline: 1px solid black;
