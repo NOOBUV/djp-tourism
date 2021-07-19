@@ -54,7 +54,7 @@ a:hover {
   .hamburger-toggle {
     display: block;
     position: absolute;
-    right: 10%;
+    right: 5%;
   }
   nav {
     margin: 0;

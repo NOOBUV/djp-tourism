@@ -1,28 +1,37 @@
 import "./Home.css";
 import MainContainer from "./MainContainer";
 import { useState } from "react";
+import img1 from "./img/a (1).webp";
+import img2 from "./bg1.webp";
+import img3 from "./img/a (3).webp";
+import img4 from "./img/a (4).webp";
+import img5 from "./img/a (5).webp";
+import img6 from "./bg2.webp";
+import img7 from "./bg3.webp";
+import img8 from "./bg4.webp";
+
 const Home = () => {
   const [imageSrc, setImageSrc] = useState(
-    `https://unsplash.com/photos/3l3ant2VB-U/download?force=true`
+    "https://cdn.discordapp.com/attachments/866039926121955389/866769688691343420/a_2.webp"
   );
 
   const [items, setItems] = useState([
     {
-      url: `https://unsplash.com/photos/zhT9Vejzd-k/download?force=true`,
-      background: `https://unsplash.com/photos/3l3ant2VB-U/download?force=true`,
+      url: img5,
+      background: img2,
     },
     {
-      url: `https://unsplash.com/photos/pfLyzuGfofY/download?force=true`,
-      background: `https://unsplash.com/photos/jvdvp6bplTs/download?force=true`,
+      url: img1,
+      background: img8,
     },
 
     {
-      url: `https://unsplash.com/photos/F4Pu1wuGQkc/download?force=true`,
-      background: `https://unsplash.com/photos/rwO-rWHNwds/download?force=true`,
+      url: img4,
+      background: img6,
     },
     {
-      url: `https://unsplash.com/photos/YH1sPWaQAhg/download?force=true`,
-      background: `https://unsplash.com/photos/eU4pipU_8HA/download?force=true`,
+      url: img3,
+      background: img7,
     },
   ]);
 
@@ -42,6 +51,9 @@ const Home = () => {
       className="Home"
     >
       <MainContainer changeBackground={changeBackground} items={items} />
+      <a className="explore-btn" href="/explore">
+        Explore <span className="nothing">🠖</span>
+      </a>
     </div>
   );
 };

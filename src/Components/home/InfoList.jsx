@@ -54,7 +54,7 @@ const InfoList = (props) => {
       <Slider {...settings}>
         {items.map((item, index) => (
           <Info
-          key= {item.desc}
+            key={item.desc}
             className={index === slideIndex ? "Info active-info" : "Info"}
             item={item}
           />
